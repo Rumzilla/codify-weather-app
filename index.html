@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" class="main-input" value="" />
+      <div class="weather-wrap off-wrap">
+        <p class="placeholder placeholder-off">
+          Please enter name of the city and press enter to see results
+        </p>
+        <div class="left-side icon-display">
+          <span class="city"></span>
+          <span class="date"></span>
+          <span class="time"></span>
+        </div>
+        <div class="center-side icon-display">
+          <img src="" alt="icon" class="weather-icon icon-display" />
+          <div class="temp-wrap">
+            <span class="temp"></span>
+            <span class="weather"></span>
+          </div>
+        </div>
+        <div class="right-side icon-display">
+          <span class="feels"></span>
+          <span class="humidity"></span>
+          <span class="wind"></span>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
